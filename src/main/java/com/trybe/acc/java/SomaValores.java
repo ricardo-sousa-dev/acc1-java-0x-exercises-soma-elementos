@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class SomaValores {
-	
+
   public static void main(String[] args) {
     // Ler a entrada de um número pelo console
     Scanner scan = new Scanner(System.in).useLocale(Locale.US);
