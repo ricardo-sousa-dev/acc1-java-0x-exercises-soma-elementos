@@ -17,12 +17,10 @@ public class SomaValores {
       myArray[index] = scan.nextInt();
     }
 
-    // Seu código aqui
+    int soma = myArray[0] + myArray[myArray.length - 1];
 
-
-    // Imprime a saída no console. OBS: descomente a próxima linha
-    //System.out.println("A soma é: " + soma);
-
+    System.out.println("A soma é: " + soma);
+    scan.close();
   }
 
 }
